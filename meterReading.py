@@ -79,7 +79,7 @@ def main_process():
 def upload_db(df_header, df_consu1):
 
     try:
-        engine = sqlalchemy.create_engine('postgresql://postgres:Waheguruji@123@localhost/reading_db1')
+        engine = sqlalchemy.create_engine('postgresql://postgres:**********@localhost/reading_db1')
         if not database_exists(engine.url):
             create_database(engine.url)
 
