@@ -113,7 +113,6 @@ def upload_db(df_header, df_consu1):
 
 def auto_script():
 
-    print('kamal')
     df_header, df_consu1 = main_process()
 
     logging.debug("Records to be uploaded in header table: {}".format(df_header))
