@@ -4,7 +4,7 @@ def dataView():
     try:
         # Connect to an existing database
         connection = psycopg2.connect(user="postgres",
-                                      password="Waheguruji@123",
+                                      password="***********",
                                       host="localhost",
                                       port="5432",
                                       database="reading_db1")
